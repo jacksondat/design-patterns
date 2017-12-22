@@ -1,0 +1,14 @@
+#Intent
+Factory Method is a creational design pattern that provides an interface for creating objects in superclass, but allow subclasses to alter the type of objects that will be created.
+
+#Problem
+Imagine that you are creating a logistics management application. The first version of your app can handle only transportation by trucks, so the bulk of your code lives in a Truck class.
+
+After a while, your app becomes so popular that you get tons of requests to include sea transportation as well.
+
+It looks that most of your code is coupled to the  Truck class. Adding Ships would require making changes to the entire codebase. Moreover, if you decide to add another type of transportation to the app, you will probably need to make all of those change again.
+
+You will end up with nasty code riddled with conditionals, which select behaviors depending on classes of transport objects.
+
+
+Factory Method. Retrieved from https://refactoring.guru/design-patterns/factory-method
