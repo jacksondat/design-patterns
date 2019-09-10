@@ -1,6 +1,7 @@
 .gradle
-/build/
+build/
 bin/
+gradle/
 
 # Ignore Gradle GUI config
 gradle-app.setting
@@ -20,3 +21,6 @@ RemoteSystemsTempFiles/
 .settings/
 .classpath
 .project
+.idea
+gradlew
+gradlew.bat
